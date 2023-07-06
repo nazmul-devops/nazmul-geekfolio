@@ -151,3 +151,46 @@
 .service_card_btn:hover {
     background-color: rgb(90, 85, 85);
 }
+
+
+/* Footer section design  */
+
+.footer_container {
+    background-color: #242121;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.footer_content {
+    width: 300px;
+    height: auto;
+    padding: 100px;
+}
+
+.footer_content_logo {
+    margin-bottom: 20px;
+}
+
+
+.footer_content_title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.footer_content>ul>li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.footer_content>p {
+    padding: 10px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+}
