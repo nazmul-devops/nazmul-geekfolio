@@ -77,7 +77,7 @@
 
 /* About us section design */
 
-#about_us_title {
+.section_title {
     font-size: 55px;
     text-align: center;
     margin-top: 20px;
@@ -105,4 +105,49 @@
 .about_right_text_h3 {
     font-size: 30px;
     font-weight: bold;
+}
+
+ 
+/* Service section design  */
+
+/* .service_section_title {
+    color: #fff;
+} */
+
+.service_container {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+}
+
+.service_card {
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
+    width: 270px;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.service_card_icon {
+    width: 70px;
+}
+
+.service_card_title {
+    font-size: 25px;
+}
+
+.service_card_para {
+    padding: 10px ;
+}
+.service_card_btn {
+    background-color: gray;
+}
+
+.service_card_btn:hover {
+    background-color: rgb(90, 85, 85);
 }
