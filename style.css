@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/* Menu Bar design  */
 .menu_bar {
   background-color: rgb(45, 43, 43);
   color: white;
@@ -29,9 +30,11 @@
 }
 
 .menu_item:hover {
-  color: darkgreen;
+  color:chocolate
 }
 
+
+/* Banner section design  */
 .banner_container {
     color: white;
   height: 100vh;
@@ -40,8 +43,66 @@
   align-items: center;
   background-image: url("images/background.png"),
     linear-gradient(45deg, #474141, #000);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #banner_image {
   width: 300px;
+}
+
+
+.title {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.description {
+    margin: 15px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(194, 24, 24);
+}
+
+
+/* About us section design */
+
+#about_us_title {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about_us_container {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+}
+
+.left_image {
+
+}
+
+#about_left_image {
+    width: 300px;
+}
+
+.right_text {
+
+}
+
+.about_right_text_h3 {
+    font-size: 30px;
+    font-weight: bold;
 }
